@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="profile.jpg">
+<img class="profile-picture" src="face.jpg">
 
 Hi! I am a Mechanical Engineering master's student at Carnegie Mellon University.
 

@@ -1,8 +1,8 @@
 remote_theme: ankitsultana/researcher@gem
 
 title: Sebin Jung
-url: "https://sebinj.com"
-baseurl: "https://sbjung.github.io/"
+url: "https://sbjung.github.io/"
+# baseurl: "https://sbjung.github.io/"
 
 markdown: kramdown
 # ins_logo: "./cmu-wordmark-horizontal-70k.png"

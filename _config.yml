@@ -1,7 +1,7 @@
 remote_theme: ankitsultana/researcher@gem
 
 title: Sebin Jung
-url: "https://sbjung.github.io/"
+url: "https://sebinj.com"
 baseurl: "https://sbjung.github.io/"
 
 markdown: kramdown

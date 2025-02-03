@@ -1,6 +1,8 @@
+remote_theme: ankitsultana/researcher@gem
+
 title: Sebin Jung
 url: "https://sbjung.github.io/"
-baseurl: "/researcher"
+baseurl: "https://sbjung.github.io/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -17,10 +19,8 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "https://sbjung.github.io/"
  - name: "Resume"
-   link: "resume.pdf"
+   link: "CV_renewed.pdf"
  - name: "Contact"
    link: "contact"
-
-remote_theme: ankitsultana/researcher

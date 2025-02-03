@@ -4,8 +4,6 @@ is_contact: true
 ---
 
 * Email: [sebinj@andrew.cmu.edu](mailto:sebinj@andrew.cmu.edu)
-<!-- 
-* Phone: [+91-123123](tel:+91-123123) -->
 
 ---
 
@@ -26,5 +24,5 @@ is_contact: true
 ## Social
 
 1. [Linkedin](https://www.linkedin.com/in/sebin-jung-a42884248/)
-2. [Instagram](#)
+2. [Github](#)
 3. [Google+](#)

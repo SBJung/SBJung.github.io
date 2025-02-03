@@ -5,7 +5,7 @@ url: "https://sbjung.github.io/"
 baseurl: "https://sbjung.github.io/"
 
 markdown: kramdown
-ins_logo: "./cmu-wordmark-stacked-k.png"
+ins_logo: "./cmu-wordmark-horizontal-70k.png"
 
 tracking_id: #
 

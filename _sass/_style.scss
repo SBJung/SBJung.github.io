@@ -162,4 +162,10 @@ hr {
     width: 100%;
     height: auto;
   }
-  
+
+.project-table,
+.project-table tr,
+.project-table td {
+  border: none !important;
+  background-color: transparent;
+}

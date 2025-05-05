@@ -43,7 +43,7 @@ Here is a blockquote
 <!--                                 Project                                 -->
 <!-- ----------------------------------------------------------------------- -->
 
-<table style="width: 100%; border: none; border-collapse: collapse;">
+<table class="project-table" style="width: 100%;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
     <td style="padding:16px;width:25%;vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
@@ -61,7 +61,7 @@ Here is a blockquote
       </a>
       <br>
       <span class="authors">
-        <strong>Sebin Jung</strong>, <a href="#">Your Collaborators</a>
+        <strong>Sebin Jung</strong>, Your Collaborators
       </span>
       <br>
       <em>Your Venue</em>, Year

@@ -41,7 +41,7 @@ Here is a blockquote
 
 Large image
 <!-- ![alt text](assets/profile.jpg) -->
-<img src="assets/profile.jpg" alt="Profile picture" width="150" />
+<img src="assets/profile.jpg" alt="Profile picture" width="150" height="150"/>
 
 
 ## References

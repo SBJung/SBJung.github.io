@@ -39,34 +39,37 @@ Here is a blockquote
 
 > To a great mind, nothing is little
 
-<table style="width: 100%;">
-  <tr onmouseout="project1_stop()" onmouseover="project1_start()">
-    <td style="padding:16px;width:25%;vertical-align:middle">
+<!-- ----------------------------------------------------------------------- -->
+<!--                                 Project                                 -->
+<!-- ----------------------------------------------------------------------- -->
+
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
+    <td style="padding:16px;width:25%;vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='project1_video'>
           <video width="100%" muted autoplay loop>
             <source src="assets/project1_video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
           </video>
         </div>
         <img src='assets/project1_thumb.jpg' width="100%">
       </div>
     </td>
-    <td style="padding:8px;width:75%;vertical-align:middle">
+    <td style="padding:8px;width:75%;vertical-align:middle; border: none;">
       <a href="https://your-project-page.com">
         <span class="papertitle">🧠 Project Title: What It Does</span>
       </a>
       <br>
       <span class="authors">
-        <a href="#">Sebin Jung</a>, Your Collaborators
+        <strong>Sebin Jung</strong>, <a href="#">Your Collaborators</a>
       </span>
       <br>
       <em>Your Venue</em>, Year
       <br>
-      <a href="https://your-project-page.com">project page</a>
-      /
-      <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv</a>
-      <p></p>
+      <p>
+        <a href="https://your-project-page.com" class="btn btn-xs btn-primary" role="button" target="_blank">Project Page</a>
+        <a href="https://arxiv.org/abs/xxxx.xxxxx" class="btn btn-xs btn-info" role="button" target="_blank">arXiv</a>
+      </p>
       <p>
         A short sentence explaining what your project is about.
       </p>

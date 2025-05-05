@@ -39,13 +39,15 @@ Here is a blockquote
 
 > To a great mind, nothing is little
 
-Large image
-<!-- ![alt text](assets/profile.jpg) -->
-<!-- <img src="assets/profile.jpg" alt="Profile picture" width="150" height="150"/> -->
-<a href="project1.html" style="text-decoration: none; color: inherit;">
-  <h3>🧠 Project Title</h3>
-  <img class="img-thumbnail" style="width: 150px;" src="assets/profile.jpg" alt="Project 1 Thumbnail">
-</a>
+<div class="project-thumb">
+  <a href="project1.html">
+    <img class="img-thumbnail" src="assets/profile.jpg" alt="Project 1 Thumbnail" style="width: 150px;">
+  </a>
+  <a href="project1.html">
+    <div class="project-title">🧠 Project Title</div>
+  </a>
+</div>
+
 
 
 

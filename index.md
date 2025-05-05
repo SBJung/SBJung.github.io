@@ -41,7 +41,12 @@ Here is a blockquote
 
 Large image
 <!-- ![alt text](assets/profile.jpg) -->
-<img src="assets/profile.jpg" alt="Profile picture" width="150" height="150"/>
+<!-- <img src="assets/profile.jpg" alt="Profile picture" width="150" height="150"/> -->
+<a href="project1.html" style="text-decoration: none; color: inherit;">
+  <h3>🧠 Project Title</h3>
+  <img class="img-thumbnail" style="width: 150px;" src="assets/profile.jpg" alt="Project 1 Thumbnail">
+</a>
+
 
 
 ## References

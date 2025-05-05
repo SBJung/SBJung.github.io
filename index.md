@@ -7,9 +7,8 @@ title: Sebin Jung
 
 <img class="profile-picture" src="assets/face.jpg">
 
-Hi! I am a Mechanical Engineering master's student at Carnegie Mellon University.
+I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en)
 
-You can find my source code on [GitHub](https://github.com/bk2dcradle/researcher).
 
 ## Research Interest
 
@@ -21,29 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
 ## Projects
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-<!-- ----------------------------------------------------------------------- -->
-<!--                                 Project                                 -->
-<!-- ----------------------------------------------------------------------- -->
-
+<!-- ---------------------------- Project Block ---------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
     <td style="padding:16px;width:25%;vertical-align:middle; border: none;">
@@ -85,6 +62,8 @@ Here is a blockquote
     </td>
   </tr>
 </table>
+<!-- ---------------------------- Project Block ---------------------------- -->
+
 
 <script type="text/javascript">
   function project1_start() {
@@ -97,7 +76,23 @@ Here is a blockquote
 </script>
 
 
+This is a [link](http://google.com). Something *italics* and something **bold**.
 
+Here is a table
+
+Year | Award | Category
+-----|-------|--------
+2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
+2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
+2014 | Satellite | Won Best Actor miniseries or television film
+
+Here is a horizontal rule
+
+---
+
+Here is a blockquote
+
+> To a great mind, nothing is little
 
 
 ## References

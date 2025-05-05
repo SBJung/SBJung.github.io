@@ -23,7 +23,7 @@ sass:
 nav:
 #  - name: "About"
 #    link: "https://sbjung.github.io/"
- - name: "email"
+ - name: "Email"
    link: "mailto:sebinj@andrew.cmu.edu"
  - name: "CV"
    link: "CV_renewed.pdf"
@@ -33,3 +33,5 @@ nav:
    link: "https://www.linkedin.com/in/sebin-jung-a42884248/"
  - name: "Scholar"
    link: "https://scholar.google.com/citations?hl=en&user=bqhB0foAAAAJ"
+ - name: "GitHub" 
+   link: "https://github.com/SBJung"

@@ -55,7 +55,7 @@ Here is a blockquote
         <img src='assets/profile.jpg' width="100%">
       </div>
     </td>
-    <td style="padding:8px;width:75%;vertical-align:middle; border: none;">
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <a href="https://your-project-page.com">
         <span class="papertitle">🧠 Project Title: What It Does</span>
       </a>

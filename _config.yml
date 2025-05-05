@@ -1,7 +1,7 @@
 remote_theme: ankitsultana/researcher@gem
 
 favicon: true
-favicon_location: /assets/favicon.ico  # or wherever you put it
+favicon_location: /assets/favicon.png  # or wherever you put it
 
 title: Sebin Jung
 url: "https://sbjung.github.io/"

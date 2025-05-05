@@ -40,7 +40,9 @@ Here is a blockquote
 > To a great mind, nothing is little
 
 Large image
-![alt text](assets/profile.jpg)
+<!-- ![alt text](assets/profile.jpg) -->
+<img src="assets/profile.jpg" alt="Profile picture" width="150" height="150" />
+
 
 ## References
 

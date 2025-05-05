@@ -21,9 +21,15 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "https://sbjung.github.io/"
+#  - name: "About"
+#    link: "https://sbjung.github.io/"
+ - name: "email"
+   link: "mailto:sebinj@andrew.cmu.edu"
  - name: "CV"
    link: "CV_renewed.pdf"
- - name: "Contact"
-   link: "contact"
+#  - name: "Contact"
+#    link: "contact"
+ - name: "LinkedIn"
+   link: "https://www.linkedin.com/in/sebin-jung-a42884248/"
+ - name: "Scholar"
+   link: "https://scholar.google.com/citations?hl=en&user=bqhB0foAAAAJ"

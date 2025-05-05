@@ -44,7 +44,7 @@ Here is a blockquote
 <!--                                 Project                                 -->
 <!-- ----------------------------------------------------------------------- -->
 
-<table class="project-table" style="width: 100%;">
+<table class="project-table" style="width: 100%; height: 200px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
     <td style="padding:16px;width:25%;vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
@@ -57,24 +57,30 @@ Here is a blockquote
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
-      <a href="https://your-project-page.com">
-        <span class="papertitle">🧠 Project Title: What It Does</span>
-      </a>
-      <br>
-      <div class="project-meta">
-        <span class="authors">
-          <strong>Sebin Jung</strong>, Your Collaborators
-        </span>
-        <br>
-        <em>Your Venue</em>, Year
-        <br>
-        <div>
-            <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
-            <a href="#" class="btn btn-info"><strong>arXiv</strong></a>
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <a href="https://your-project-page.com">
+            <span class="papertitle">🧠 Project Title: What It Does</span>
+          </a>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              <strong>Sebin Jung</strong>, Your Collaborators
+            </span>
+            <br>
+            <em>Your Venue</em>, Year
+            <br>
+            <div>
+              <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
+              <a href="#" class="btn btn-info"><strong>arXiv</strong></a>
+            </div>
+          </div>
         </div>
-        <p>
-          A short sentence explaining what your project is about.
-        </p>
+        <div class="project-desc-center">
+          <p class="project-summary">
+            A short sentence explaining what your project is about.
+          </p>
+        </div>
       </div>
     </td>
   </tr>

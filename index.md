@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="face.jpg">
+<img class="profile-picture" src="assets/face.jpg">
 
 Hi! I am a Mechanical Engineering master's student at Carnegie Mellon University.
 
@@ -38,6 +38,9 @@ Here is a horizontal rule
 Here is a blockquote
 
 > To a great mind, nothing is little
+
+Large image
+![alt text](assets/profile.jpg)
 
 ## References
 

@@ -7,17 +7,13 @@ title: Sebin Jung
 
 <img class="profile-picture" src="assets/face.jpg">
 
-I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en)
+I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en).
 
 
 ## Research Interest
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+I'm interested in control, machine learning, optimization, robotics. Most of my research is about enabling robots to act safely and effectively by leveraging safe control (e.g., Safe Set Algorithm) as well as machine learning techniques.
 
-## Publications
-
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
 ## Projects
 <!-- ---------------------------- Project Block ---------------------------- -->
@@ -75,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
   project1_stop();
 </script>
 
-
+<!-- 
 This is a [link](http://google.com). Something *italics* and something **bold**.
 
 Here is a table
@@ -93,6 +89,12 @@ Here is a horizontal rule
 Here is a blockquote
 
 > To a great mind, nothing is little
+ -->
+
+## Publications
+
+1. F.Bar, J.Doe: Effects of having a placeholder of a name
+2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
 
 
 ## References

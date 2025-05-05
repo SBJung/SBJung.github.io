@@ -65,11 +65,11 @@ Here is a blockquote
       </span>
       <br>
       <em>Your Venue</em>, Year
-      <!-- <br> -->
-      <p>
-        <a href="https://your-project-page.com" class="btn btn-primary" target="_blank">Project Page</a>
-        <a href="https://arxiv.org/abs/xxxx.xxxxx" class="btn btn-info" target="_blank">arXiv</a>
-      </p>
+      <br>
+      <div style="margin: 0;">
+        <a href="#" class="btn btn-primary">Project Page</a>
+        <a href="#" class="btn btn-info">arXiv</a>
+      </div>
       <p>
         A short sentence explaining what your project is about.
       </p>

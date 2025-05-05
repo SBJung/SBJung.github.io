@@ -6,8 +6,8 @@ title: Sebin Jung
 ## Hi there 👋
 
 <!-- <img class="profile-picture" src="assets/face.jpg"> -->
-<div class="profile-thumb-wrapper" onmouseover="profileHover()" onmouseout="profileStop()">
-  <img id="profile-img" src="assets/face.jpg" width="120px" alt="Profile Image">
+<div class="profile-picture" onmouseover="profileHover()" onmouseout="profileStop()">
+  <img id="profile-img" src="assets/face.jpg" alt="Profile Image">
 </div>
 
 <script>
@@ -115,3 +115,27 @@ Here is a blockquote
 
 * Foo Bar: Head of Department, Placeholder Names, Lorem
 * John Doe: Associate Professor, Department of Computer Science, Ipsum
+
+
+## Carousel
+
+<div class="glider-contain">
+  <div class="glider">
+    <img src="assets/activity1.jpg" alt="1">
+    <img src="assets/activity2.jpg" alt="2">
+    <img src="assets/activity3.jpg" alt="3">
+  </div>
+</div>
+
+<script>
+  new Glider(document.querySelector('.glider'), {
+    slidesToShow: 1,
+    dots: '#dots',
+    draggable: true,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
+</script>
+

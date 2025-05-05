@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About Me
+## Hi there 👋
 
 <img class="profile-picture" src="assets/face.jpg">
 
@@ -60,19 +60,21 @@ Here is a blockquote
         <span class="papertitle">🧠 Project Title: What It Does</span>
       </a>
       <br>
-      <span class="authors">
-        <strong>Sebin Jung</strong>, Your Collaborators
-      </span>
-      <br>
-      <em>Your Venue</em>, Year
-      <br>
-      <div style="margin: 0;">
-        <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
-        <a href="#" class="btn btn-info"><strong>arXiv</strong></a>
+      <div class="project-meta">
+        <span class="authors">
+          <strong>Sebin Jung</strong>, Your Collaborators
+        </span>
+        <br>
+        <em>Your Venue</em>, Year
+        <br>
+        <div>
+            <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
+            <a href="#" class="btn btn-info"><strong>arXiv</strong></a>
+        </div>
+        <p>
+          A short sentence explaining what your project is about.
+        </p>
       </div>
-      <p>
-        A short sentence explaining what your project is about.
-      </p>
     </td>
   </tr>
 </table>

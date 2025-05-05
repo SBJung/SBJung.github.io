@@ -44,7 +44,7 @@ Here is a blockquote
 <!--                                 Project                                 -->
 <!-- ----------------------------------------------------------------------- -->
 
-<table class="project-table" style="width: 100%; height: 200px;">
+<table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
     <td style="padding:16px;width:25%;vertical-align:middle; border: none;">
       <div class="thumb-wrapper">

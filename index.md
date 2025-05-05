@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Sebin Jung
 ---
 
 ## Hi there 👋

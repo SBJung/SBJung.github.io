@@ -41,10 +41,10 @@ Here is a blockquote
 
 <div class="project-thumb">
   <a href="project1.html">
-    <img class="img-thumbnail" src="assets/profile.jpg" alt="Project 1 Thumbnail" style="width: 150px;">
+    <div class="project-title">🧠 Project Title</div>
   </a>
   <a href="project1.html">
-    <div class="project-title">🧠 Project Title</div>
+    <img class="img-thumbnail" src="assets/profile.jpg" alt="Project 1 Thumbnail" style="width: 150px;">
   </a>
 </div>
 

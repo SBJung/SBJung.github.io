@@ -39,14 +39,51 @@ Here is a blockquote
 
 > To a great mind, nothing is little
 
-<div class="project-thumb">
-  <a href="project1.html">
-    <div class="project-title">🧠 Project Title</div>
-  </a>
-  <a href="project1.html">
-    <img class="img-thumbnail" src="assets/profile.jpg" alt="Project 1 Thumbnail" style="width: 150px;">
-  </a>
-</div>
+<table style="width: 100%;">
+  <tr onmouseout="project1_stop()" onmouseover="project1_start()">
+    <td style="padding:16px;width:25%;vertical-align:middle">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='project1_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="assets/project1_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <img src='assets/project1_thumb.jpg' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:middle">
+      <a href="https://your-project-page.com">
+        <span class="papertitle">🧠 Project Title: What It Does</span>
+      </a>
+      <br>
+      <span class="authors">
+        <a href="#">Sebin Jung</a>, Your Collaborators
+      </span>
+      <br>
+      <em>Your Venue</em>, Year
+      <br>
+      <a href="https://your-project-page.com">project page</a>
+      /
+      <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv</a>
+      <p></p>
+      <p>
+        A short sentence explaining what your project is about.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  function project1_start() {
+    document.getElementById('project1_video').style.opacity = "1";
+  }
+  function project1_stop() {
+    document.getElementById('project1_video').style.opacity = "0";
+  }
+  project1_stop();
+</script>
+
 
 
 

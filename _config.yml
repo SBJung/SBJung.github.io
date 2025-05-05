@@ -20,7 +20,7 @@ sass:
 nav:
  - name: "About"
    link: "https://sbjung.github.io/"
- - name: "Resume"
+ - name: "CV"
    link: "CV_renewed.pdf"
  - name: "Contact"
    link: "contact"

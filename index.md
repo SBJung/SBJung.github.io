@@ -52,7 +52,7 @@ Here is a blockquote
             <source src="assets/project1_video.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/project1_thumb.jpg' width="100%">
+        <img src='assets/profile.jpg' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:middle; border: none;">
@@ -67,8 +67,8 @@ Here is a blockquote
       <em>Your Venue</em>, Year
       <br>
       <div style="margin: 0;">
-        <a href="#" class="btn btn-primary">Project Page</a>
-        <a href="#" class="btn btn-info">arXiv</a>
+        <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
+        <a href="#" class="btn btn-info"><strong>arXiv</strong></a>
       </div>
       <p>
         A short sentence explaining what your project is about.

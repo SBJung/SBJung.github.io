@@ -6,22 +6,6 @@ title: Sebin Jung
 ## Hi there 👋
 
 <img class="profile-picture" src="assets/face.jpg">
-<!-- 
-<div class="profile-picture" onmouseover="profileHover()" onmouseout="profileStop()">
-  <img id="profile-img" src="assets/face.jpg" alt="Profile Image">
-</div>
-
-<script>
-  function profileHover() {
-    document.getElementById('profile-img').src = "assets/surf.jpg"; // second image
-  }
-
-  function profileStop() {
-    document.getElementById('profile-img').src = "assets/face.jpg"; // original image
-  }
-</script> 
--->
-
 
 I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en).
 

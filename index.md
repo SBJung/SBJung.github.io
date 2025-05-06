@@ -23,25 +23,25 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='project1_video'>
           <video width="100%" muted autoplay loop>
-            <source src="assets/project1_video.mp4" type="video/mp4">
+            <source src="assets/projects/spark_thumbnail.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/profile.jpg' width="100%">
+        <img src='assets/projects/spark_image.png' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
-          <a href="https://your-project-page.com">
-            <span class="papertitle">🧠 Project Title: What It Does</span>
+          <a href="https://intelligent-control-lab.github.io/spark/">
+            <span class="papertitle">SPARK: A Toolbox for Safe Humanoid Autonomy and Teleoperation</span>
           </a>
           <br>
           <div class="project-meta">
             <span class="authors">
-              <strong>Sebin Jung</strong>, Your Collaborators
+              Yifan Sun, Rui Chen, Kai S. Yun, Yikuan Fang, <strong>Sebin Jung</strong>, Weiye Zhao and Changliu Liu
             </span>
             <br>
-            <em>Your Venue</em>, Year
+            <em>arXiv</em>, 2025
             <br>
             <div>
               <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
@@ -51,7 +51,7 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            A short sentence explaining what your project is about.
+            SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments. SPARK is natively compatible with the Unitree G1 and Apple Vision Pro, offering robust fail-safe capabilities and easy integration with other hardware platforms.
           </p>
         </div>
       </div>

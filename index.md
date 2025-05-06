@@ -105,23 +105,24 @@ Here is a blockquote
 
 ## Carousel
 
-<div class="glider-contain">
+<div class="glider-contain" style="width: 300px; margin: 0 auto;">
+  <button class="glider-prev">«</button>
   <div class="glider">
-    <img src="assets/face.jpg" alt="1">
-    <img src="assets/profile.jpg" alt="2">
-    <img src="assets/surf.jpg" alt="3">
+    <div class="carousel-item"><img src="assets/face.jpg" alt="1"></div>
+    <div class="carousel-item"><img src="assets/profile.jpg" alt="2"></div>
+    <div class="carousel-item"><img src="assets/surf.jpg" alt="3"></div>
   </div>
+  <button class="glider-next">»</button>
 </div>
 
+<!-- Glider.js init -->
 <script>
-  new Glider(document.querySelector('.glider'), {
-    slidesToShow: 1,
-    dots: '#dots',
-    draggable: true,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  });
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  draggable: true,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
 </script>
-

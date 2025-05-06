@@ -5,7 +5,8 @@ title: Sebin Jung
 
 ## Hi there 👋
 
-<!-- <img class="profile-picture" src="assets/face.jpg"> -->
+<img class="profile-picture" src="assets/face.jpg">
+<!-- 
 <div class="profile-picture" onmouseover="profileHover()" onmouseout="profileStop()">
   <img id="profile-img" src="assets/face.jpg" alt="Profile Image">
 </div>
@@ -18,7 +19,8 @@ title: Sebin Jung
   function profileStop() {
     document.getElementById('profile-img').src = "assets/face.jpg"; // original image
   }
-</script>
+</script> 
+-->
 
 
 I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en).
@@ -121,9 +123,9 @@ Here is a blockquote
 
 <div class="glider-contain">
   <div class="glider">
-    <img src="assets/activity1.jpg" alt="1">
-    <img src="assets/activity2.jpg" alt="2">
-    <img src="assets/activity3.jpg" alt="3">
+    <img src="assets/face.jpg" alt="1">
+    <img src="assets/profile.jpg" alt="2">
+    <img src="assets/surf.jpg" alt="3">
   </div>
 </div>
 

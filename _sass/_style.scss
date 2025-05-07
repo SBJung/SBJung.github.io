@@ -68,7 +68,7 @@ hr {
 .container {
     max-width: $max-width;
     margin: auto;
-    margin-top: 20px; // ← reduce this too if needed
+    margin-top: 5px !important; // ← reduce this too if needed
 }
 .wrapper {
     min-height: 100%;

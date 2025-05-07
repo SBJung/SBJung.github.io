@@ -19,7 +19,7 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
 <!-- ---------------------------- Project Block ---------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
-    <td style="padding:16px;width:25%;vertical-align:middle; border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='project1_video'>
           <video width="100%" muted autoplay loop>

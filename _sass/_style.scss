@@ -39,7 +39,7 @@ hr {
     display: inline-block;
 }
 .navbar {
-    padding: 50px 0 50px 0;
+    padding: 50px 0 10px 0;
 }
 .navbar-ul {
     display: inline-block;
@@ -136,7 +136,7 @@ hr {
 }
 
 .project-title {
-  font-size: 15px;
+  font-size: 16px;
   // font-size: 6.0em;
   font-weight: bold;
   color: $accent;
@@ -145,7 +145,7 @@ hr {
 }
 
 .project-meta {
-  font-size: 13px;
+  font-size: 16px;
   // font-size: 2.0em;
   color: #141414;
   line-height: 1.3;

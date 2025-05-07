@@ -44,14 +44,14 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
             <em>arXiv</em>, 2025
             <br>
             <div>
-              <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
-              <a href="#" class="btn btn-info"><strong>arXiv</strong></a>
+              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
+              <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>
             </div>
           </div>
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments. SPARK is natively compatible with the Unitree G1 and Apple Vision Pro, offering robust fail-safe capabilities and easy integration with other hardware platforms.
+            SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments.
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ Here is a blockquote
 * John Doe: Associate Professor, Department of Computer Science, Ipsum
 
 
-## Carousel
+## Recent Activities
 
 <div class="glider-contain" style="width: 300px; margin: 0 auto;">
   <button class="glider-prev">«</button>

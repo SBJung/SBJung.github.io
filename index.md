@@ -50,9 +50,9 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
           </div>
         </div>
         <div class="project-desc-center">
-          <p class="project-summary">
+          <div class="project-summary">
             SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments.
-          </p>
+          </div>
         </div>
       </div>
     </td>

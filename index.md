@@ -16,7 +16,7 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
 
 
 ## Projects
-<!-- ---------------------------- Project Block ---------------------------- -->
+<!-- -------------------------------- SPARK -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
@@ -58,7 +58,50 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
     </td>
   </tr>
 </table>
-<!-- ---------------------------- Project Block ---------------------------- -->
+<!-- -------------------------------- SPARK -------------------------------- -->
+<!-- -------------------------------- SPARK -------------------------------- -->
+<table class="project-table" style="width: 100%; height: 180px;">
+  <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='project1_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="assets/projects/spark_thumbnail.mp4" type="video/mp4">
+          </video>
+        </div>
+        <img src='assets/projects/spark_image.png' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <a href="https://intelligent-control-lab.github.io/spark/">
+            <span class="papertitle">SPARK: A Toolbox for Safe Humanoid Autonomy and Teleoperation</span>
+          </a>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              Yifan Sun, Rui Chen, Kai S. Yun, Yikuan Fang, <strong>Sebin Jung</strong>, Weiye Zhao and Changliu Liu
+            </span>
+            <br>
+            <em>arXiv</em>, 2025
+            <br>
+            <div>
+              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
+              <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-desc-center">
+          <p class="project-summary">
+            SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments.
+          </p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+<!-- -------------------------------- SPARK -------------------------------- -->
 
 
 <script type="text/javascript">

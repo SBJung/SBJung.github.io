@@ -58,10 +58,20 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
     </td>
   </tr>
 </table>
+
+<script type="text/javascript">
+  function project1_start() {
+    document.getElementById('project1_video').style.opacity = "1";
+  }
+  function project1_stop() {
+    document.getElementById('project1_video').style.opacity = "0";
+  }
+  project1_stop();
+</script>
 <!-- -------------------------------- SPARK -------------------------------- -->
 <!-- -------------------------------- SPARK -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
-  <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
+  <tr onmouseout="project2_stop()" onmouseover="project2_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='project1_video'>
@@ -101,18 +111,17 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
     </td>
   </tr>
 </table>
-<!-- -------------------------------- SPARK -------------------------------- -->
-
 
 <script type="text/javascript">
-  function project1_start() {
+  function project2_start() {
     document.getElementById('project1_video').style.opacity = "1";
   }
-  function project1_stop() {
+  function project2_stop() {
     document.getElementById('project1_video').style.opacity = "0";
   }
-  project1_stop();
+  project2_stop();
 </script>
+<!-- -------------------------------- SPARK -------------------------------- -->
 
 <!-- 
 This is a [link](http://google.com). Something *italics* and something **bold**.

@@ -23,10 +23,10 @@ My research interests lie at the intersection of control, machine learning, opti
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research1_video'>
           <video width="100%" muted autoplay loop>
-            <source src="assets/projects/spark_thumbnail.mp4" type="video/mp4">
+            <source src="assets/research/spark_thumbnail.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/projects/spark_image.png' width="100%">
+        <img src='assets/research/spark_image.png' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">

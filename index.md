@@ -82,13 +82,13 @@ My research interests lie at the intersection of control, machine learning, opti
             <source src="assets/projects/safety21.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/projects/safety21.JPG' width="100%">
+        <img src='assets/projects/safety21.jpg' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
-          <a href="https://intelligent-control-lab.github.io/spark/">
+          <a href="https://safety21.cmu.edu/2024-deployment-partner-consortium-symposium/">
             <span class="papertitle">F1Tenth Racing Demo at Safety21</span>
           </a>
           <br>
@@ -99,10 +99,10 @@ My research interests lie at the intersection of control, machine learning, opti
             <br>
             Pittsburgh, PA, 2024
             <br>
-            <div>
-              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
+            <!-- <div>
+              <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
               <a href="https://safety21.cmu.edu/2024-deployment-partner-consortium-symposium/" class="btn btn-info"><strong>Website</strong></a>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="project-desc-center">

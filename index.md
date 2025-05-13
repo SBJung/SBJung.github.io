@@ -7,12 +7,12 @@ title: Sebin Jung
 
 <img class="profile-picture" src="assets/surf.jpg">
 
-I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en). Before joining CMU, I received my B.S. in Mechanical Engineering from Kyoungpook National University. There, I did autonomous driving research in [VOICE Lab](https://sites.google.com/view/voice-lab) under Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
+I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) at the Robotics Institute, where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en). Before coming to CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
 
 
 ## Interests
 
-My research interests lie at the intersection of control, machine learning, optimization and robotics. My recent works are focused on enabling robots to act safely and effectively by leveraging safe control as well as machine learning techniques.
+My research interests lie at the intersection of control, machine learning, optimization, and robotics. I'm particularly interested in developing methods that enable robots to act both safely and intelligently in complex environments. Recently, my work has focused on combining safe control techniques with learning-based approaches to improve the performance and reliability of autonomous systems.
 
 
 ## Research

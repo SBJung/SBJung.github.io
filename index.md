@@ -18,7 +18,7 @@ My research interests lie at the intersection of control, machine learning, opti
 ## Research
 <!-- -------------------------------- SPARK -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
-  <tr onmouseout="project2_stop()" onmouseover="project2_start()" style="border: none;">
+  <tr onmouseout="research1_stop()" onmouseover="research1_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research1_video'>

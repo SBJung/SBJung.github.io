@@ -5,17 +5,17 @@ title: Sebin Jung
 
 ## Hi there 👋
 
-<img class="profile-picture" src="assets/face.jpg">
+<img class="profile-picture" src="assets/surf.jpg">
 
 I'm a master's student at Carnegie Mellon University in Pittsburgh. As part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) in Robotics Institute, I'm advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en).
 
 
-## Research Interest
+## Interests
 
 I'm interested in control, machine learning, optimization, robotics. Most of my research is about enabling robots to act safely and effectively by leveraging safe control (e.g., Safe Set Algorithm) as well as machine learning techniques.
 
 
-## Projects
+## Research
 <!-- -------------------------------- SPARK -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
@@ -23,35 +23,35 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='project1_video'>
           <video width="100%" muted autoplay loop>
-            <source src="assets/projects/spark_thumbnail.mp4" type="video/mp4">
+            <source src="assets/projects/safety21.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/projects/spark_image.png' width="100%">
+        <img src='assets/projects/safety21.JPG' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
           <a href="https://intelligent-control-lab.github.io/spark/">
-            <span class="papertitle">SPARK: A Toolbox for Safe Humanoid Autonomy and Teleoperation</span>
+            <span class="papertitle">F1Tenth Racing Demo at Safety21</span>
           </a>
           <br>
           <div class="project-meta">
             <span class="authors">
-              Yifan Sun, Rui Chen, Kai S. Yun, Yikuan Fang, <strong>Sebin Jung</strong>, Weiye Zhao and Changliu Liu
+              <strong>Sebin Jung</strong> with Kai S. Yun, Abhinandan Vellanki, Anirudh Shrihari, Kailash Jagadeesh, Wenli Xiao
             </span>
             <br>
-            <em>arXiv</em>, 2025
+            Pittsburgh, PA, 2024
             <br>
             <div>
               <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
-              <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>
+              <a href="https://safety21.cmu.edu/2024-deployment-partner-consortium-symposium/" class="btn btn-info"><strong>Website</strong></a>
             </div>
           </div>
         </div>
         <div class="project-desc-center">
           <div class="project-summary">
-            SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments.
+            As part of the Safety21 event, our team presented a live demonstration of autonomous racing using two F1Tenth vehicles. This showcase highlighted the F1Tenth: Autonomous Racing course offered at the Carnegie Mellon Robotics Institute, led by Professor John Dolan.
           </div>
         </div>
       </div>
@@ -69,7 +69,10 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
   project1_stop();
 </script>
 <!-- -------------------------------- SPARK -------------------------------- -->
-<!-- -------------------------------- SPARK -------------------------------- -->
+
+
+## Projects
+<!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project2_stop()" onmouseover="project2_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
@@ -121,7 +124,7 @@ I'm interested in control, machine learning, optimization, robotics. Most of my 
   }
   project2_stop();
 </script>
-<!-- -------------------------------- SPARK -------------------------------- -->
+<!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
 
 <!-- 
 This is a [link](http://google.com). Something *italics* and something **bold**.
@@ -143,7 +146,7 @@ Here is a blockquote
 > To a great mind, nothing is little
  -->
 
-## Publications
+<!-- ## Publications
 
 1. F.Bar, J.Doe: Effects of having a placeholder of a name
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
@@ -152,7 +155,7 @@ Here is a blockquote
 ## References
 
 * Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+* John Doe: Associate Professor, Department of Computer Science, Ipsum -->
 
 
 ## Recent Activities

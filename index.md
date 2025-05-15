@@ -231,6 +231,59 @@ My research interests lie at the intersection of control, machine learning, opti
   project1_stop();
 </script>
 <!-- -------------------------------- Quanser -------------------------------- -->
+<!-- ------------------------------- f1tenth korea ------------------------------- -->
+<table class="project-table" style="width: 100%; height: 180px;">
+  <tr onmouseout="project4_stop()" onmouseover="project4_start()" style="border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='project4_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="assets/projects/f1tenth.mp4" type="video/mp4">
+          </video>
+        </div>
+        <img src='assets/projects/f1tenth.jpg' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <a href="https://korea-race23.f1tenth.org/">
+            <span class="papertitle">2023 ICCAS F1Tenth Korea Championship</span>
+          </a>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              <strong>Sebin Jung</strong> with 	Suyong Park, Yundo Choi, Hyeonjeong Kim, ChanHyuk Lee
+            </span>
+            <br>
+            Yeosu, South Korea, 2023
+            <br>
+            <!-- <div>
+              <a href="#" class="btn btn-primary"><strong>Project Page</strong></a>
+              <a href="https://github.com/SBJung/2024-ACC-Quanser.git" class="btn btn-info"><strong>Code</strong></a>
+            </div> -->
+          </div>
+        </div>
+        <div class="project-desc-center">
+          <div class="project-summary">
+            Our team, TigerOX, competed in the 2023 ICCAS 2nd F1Tenth Korea Championship, optimizing a minimum-time raceline and implementing Pure Pursuit with adaptive velocity control.
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  function project4_start() {
+    document.getElementById('project4_video').style.opacity = "1";
+  }
+  function project4_stop() {
+    document.getElementById('project4_video').style.opacity = "0";
+  }
+  project1_stop();
+</script>
+<!-- -------------------------------- f1tenth korea -------------------------------- -->
 
 <!-- 
 This is a [link](http://google.com). Something *italics* and something **bold**.

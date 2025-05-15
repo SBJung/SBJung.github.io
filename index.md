@@ -125,12 +125,65 @@ My research interests lie at the intersection of control, machine learning, opti
   project1_stop();
 </script>
 <!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
-<!-- ------------------------------- Quanser ------------------------------- -->
+<!-- ------------------------------- CARLA ------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project2_stop()" onmouseover="project2_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='project2_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="assets/projects/carla.mp4" type="video/mp4">
+          </video>
+        </div>
+        <img src='assets/projects/carla.jpg' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <a href="https://candy-train-51d.notion.site/CARLA_0-9-15-e73f6bd40f42487895586f471a56c167">
+            <span class="papertitle">CARLA Tutorial for Korean Students</span>
+          </a>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              <strong>Sebin Jung</strong>
+            </span>
+            <br>
+            Daegu, South Korea, 2024
+            <br>
+            <div>
+              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
+              <a href="https://candy-train-51d.notion.site/CARLA_0-9-15-e73f6bd40f42487895586f471a56c167" class="btn btn-info"><strong>Notion</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-desc-center">
+          <div class="project-summary">
+            As a side project in the VOICE Lab, I developed a concise CARLA tutorial tailored for Korean students. The goal was to help lab members and peers quickly familiarize themselves with the simulator's core features and sensors for autonomous driving research.
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  function project2_start() {
+    document.getElementById('project2_video').style.opacity = "1";
+  }
+  function project2_stop() {
+    document.getElementById('project2_video').style.opacity = "0";
+  }
+  project1_stop();
+</script>
+<!-- -------------------------------- CARLA -------------------------------- -->
+<!-- ------------------------------- Quanser ------------------------------- -->
+<table class="project-table" style="width: 100%; height: 180px;">
+  <tr onmouseout="project3_stop()" onmouseover="project3_start()" style="border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='project3_video'>
           <video width="100%" muted autoplay loop>
             <source src="assets/projects/quanser.mp4" type="video/mp4">
           </video>
@@ -169,11 +222,11 @@ My research interests lie at the intersection of control, machine learning, opti
 </table>
 
 <script type="text/javascript">
-  function project2_start() {
-    document.getElementById('project2_video').style.opacity = "1";
+  function project3_start() {
+    document.getElementById('project3_video').style.opacity = "1";
   }
-  function project2_stop() {
-    document.getElementById('project2_video').style.opacity = "0";
+  function project3_stop() {
+    document.getElementById('project3_video').style.opacity = "0";
   }
   project1_stop();
 </script>

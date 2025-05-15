@@ -213,24 +213,43 @@ Here is a blockquote
 
 ## Recent Activities
 
-<div class="glider-contain" style="width: 300px; margin: 0 auto;">
+<div class="glider-contain" style="width: 600px; margin: 0 auto;">
   <button class="glider-prev">«</button>
   <div class="glider">
-    <div class="carousel-item"><img src="assets/face.jpg" alt="1"></div>
-    <div class="carousel-item"><img src="assets/profile.jpg" alt="2"></div>
-    <div class="carousel-item"><img src="assets/surf.jpg" alt="3"></div>
+    <div class="carousel-item">
+      <img src="assets/face.jpg" alt="1">
+      <p class="carousel-caption">ID Photo</p>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/profile.jpg" alt="2">
+      <p class="carousel-caption">Professional Profile</p>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/surf.jpg" alt="3">
+      <p class="carousel-caption">Surfing in Busan</p>
+    </div>
   </div>
   <button class="glider-next">»</button>
 </div>
 
 <!-- Glider.js init -->
 <script>
-new Glider(document.querySelector('.glider'), {
-  slidesToShow: 1,
-  draggable: true,
-  arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
-  }
-});
+  const glider = new Glider(document.querySelector('.glider'), {
+    slidesToShow: 1,
+    draggable: true,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
+
+  let currentSlide = 0;
+  const totalSlides = document.querySelectorAll('.carousel-item').length;
+
+  setInterval(() => {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    glider.scrollItem(currentSlide);
+  }, 3000);
 </script>
+
+

@@ -252,17 +252,18 @@ hr {
 }
 
 .carousel-item {
-  width: 900px;
-  height: 300px;
-  overflow: hidden;
+  width: 100%;
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .carousel-item img {
-  height: 100%;
-  object-fit: cover; /* crop and center */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .glider-prev,
@@ -283,4 +284,10 @@ hr {
 
 .glider-next {
   right: -40px;
+}
+
+.carousel-caption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
 }

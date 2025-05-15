@@ -217,15 +217,21 @@ Here is a blockquote
   <button class="glider-prev">«</button>
   <div class="glider">
     <div class="carousel-item">
-      <img src="assets/face.jpg" alt="1">
+      <div class="image-wrapper">
+        <img src="assets/face.jpg" alt="1">
+      </div>
       <p class="carousel-caption">ID Photo</p>
     </div>
     <div class="carousel-item">
-      <img src="assets/profile.jpg" alt="2">
+      <div class="image-wrapper">
+        <img src="assets/profile.jpg" alt="2">
+      </div>
       <p class="carousel-caption">Professional Profile</p>
     </div>
     <div class="carousel-item">
-      <img src="assets/surf.jpg" alt="3">
+      <div class="image-wrapper">
+        <img src="assets/surf.jpg" alt="3">
+      </div>
       <p class="carousel-caption">Surfing in Busan</p>
     </div>
   </div>

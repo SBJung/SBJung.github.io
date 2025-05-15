@@ -324,21 +324,21 @@ Here is a blockquote
   <div class="glider">
     <div class="carousel-item">
       <div class="image-wrapper">
-        <img src="assets/face.jpg" alt="1">
+        <img src="assets/activities/f1tenth.JPG" alt="1">
       </div>
-      <p class="carousel-caption">ID Photo</p>
+      <p class="carousel-caption">Competed in 2nd F1Tenth Korea Championship!</p>
     </div>
     <div class="carousel-item">
       <div class="image-wrapper">
-        <img src="assets/profile.jpg" alt="2">
+        <img src="assets/activities/doe.jpg" alt="2">
       </div>
-      <p class="carousel-caption">Professional Profile</p>
+      <p class="carousel-caption">Now in Berkeley for summer!</p>
     </div>
     <div class="carousel-item">
-      <div class="image-wrapper">
-        <img src="assets/surf.jpg" alt="3">
+      <div class="image-wrapper">   
+        <img src="assets/activities/bair.jpg" alt="3">
       </div>
-      <p class="carousel-caption">Surfing in Busan</p>
+      <p class="carousel-caption">Visited the heart of Berkeley AI, BAIR!</p>
     </div>
   </div>
   <button class="glider-next">»</button>

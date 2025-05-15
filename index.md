@@ -125,6 +125,59 @@ My research interests lie at the intersection of control, machine learning, opti
   project1_stop();
 </script>
 <!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
+<!-- ------------------------------- Quanser ------------------------------- -->
+<table class="project-table" style="width: 100%; height: 180px;">
+  <tr onmouseout="project2_stop()" onmouseover="project2_start()" style="border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='project2_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="assets/projects/quanser.mp4" type="video/mp4">
+          </video>
+        </div>
+        <img src='assets/projects/quanser.png' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <a href="https://www.quanser.com/community/student-competition-old/2024-student-self-driving-car-competition/">
+            <span class="papertitle">2024 ACC Quanser Self-Driving Car Student Competition</span>
+          </a>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              <strong>Sebin Jung</strong> with Suyong Park, Jiwoo Oh, Chanhyuk Lee, Junghyo Kim, Hyeonjeong Kim, Ginyeong Yang, Dongryeol Won
+            </span>
+            <br>
+            Toronto, ON, 2024
+            <br>
+            <div>
+              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
+              <a href="https://github.com/SBJung/2024-ACC-Quanser.git" class="btn btn-info"><strong>Code</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-desc-center">
+          <div class="project-summary">
+            Our team (VOICE) competed in the 2024 ACC Quanser Self-Driving Student Competition, showcasing reliable line following using Pure Pursuit and robust traffic sign detection for stop-and-go control. After passing the qualifier, we placed 4th in the finals.
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  function project2_start() {
+    document.getElementById('project2_video').style.opacity = "1";
+  }
+  function project2_stop() {
+    document.getElementById('project2_video').style.opacity = "0";
+  }
+  project1_stop();
+</script>
+<!-- -------------------------------- Quanser -------------------------------- -->
 
 <!-- 
 This is a [link](http://google.com). Something *italics* and something **bold**.

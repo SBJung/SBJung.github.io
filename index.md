@@ -361,7 +361,7 @@ Here is a blockquote
   setInterval(() => {
     currentSlide = (currentSlide + 1) % totalSlides;
     glider.scrollItem(currentSlide);
-  }, 3000);
+  }, 6000);
 </script>
 
 

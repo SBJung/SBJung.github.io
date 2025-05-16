@@ -85,7 +85,9 @@ My research interests lie at the intersection of control, machine learning, opti
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
-          <span class="papertitle">Vehicle Dynamics-Aware RL Environment Using IPG CarMaker</span>
+          <a>
+            <span class="papertitle">Vehicle Dynamics-Aware RL Environment Using IPG CarMaker</span>
+          </a>
           <br>
           <div class="project-meta">
             <span class="authors">
@@ -102,7 +104,7 @@ My research interests lie at the intersection of control, machine learning, opti
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            We developed a RL environment for autonomous driving using the commercial simulator IPG CarMaker, incorporating realistic vehicle dynamics. A TD3-based control policy was trained to handle continuous steering and throttle inputs.
+            We developed a RL environment for autonomous driving using the commercial simulator IPG CarMaker, incorporating realistic vehicle dynamics. A TD3-based control policy was trained to handle continuous steering and throttle inputs. This work demonstrates the potential of learning-based driving in high-fidelity simulation and lays the foundation for future multi-agent and complex scenario extensions.
           </p>
         </div>
       </div>

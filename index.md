@@ -18,10 +18,10 @@ My research interests lie at the intersection of control, machine learning, opti
 ## Research
 <!-- -------------------------------- SPARK -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
-  <tr onmouseout="research1_stop()" onmouseover="research1_start()" style="border: none;">
+  <tr onmouseout="research2_stop()" onmouseover="research2_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
-        <div class="thumb-hover" id='research1_video'>
+        <div class="thumb-hover" id='research2_video'>
           <video width="100%" muted autoplay loop>
             <source src="assets/research/spark_thumbnail.mp4" type="video/mp4">
           </video>
@@ -60,6 +60,57 @@ My research interests lie at the intersection of control, machine learning, opti
 </table>
 
 <script type="text/javascript">
+  function research2_start() {
+    document.getElementById('research2_video').style.opacity = "1";
+  }
+  function research2_stop() {
+    document.getElementById('research2_video').style.opacity = "0";
+  }
+  research2_stop();
+</script>
+<!-- -------------------------------- SPARK -------------------------------- -->
+<!-- -------------------------------- Graduation Proj -------------------------------- -->
+<table class="project-table" style="width: 100%; height: 180px;">
+  <tr onmouseout="research1_stop()" onmouseover="research1_start()" style="border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='research1_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="#" type="video/mp4">
+          </video>
+        </div>
+        <img src='assets/research/GradProj.png' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <span class="papertitle">Vehicle Dynamics-Aware RL Environment Using IPG CarMaker</span>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              <strong>Sebin Jung</strong>, Junghyo Kim, Hyojae Lee and Kyoungseok Han
+            </span>
+            <br>
+            <em>KNU MechE Poster Session</em>, 2025
+            <br>
+            <div>
+              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
+              <a href="https://github.com/SBJung/graduation_project.git" class="btn btn-info"><strong>Github</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-desc-center">
+          <p class="project-summary">
+            We developed a RL environment for autonomous driving using the commercial simulator IPG CarMaker, incorporating realistic vehicle dynamics. A TD3-based control policy was trained to handle continuous steering and throttle inputs.
+          </p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
   function research1_start() {
     document.getElementById('research1_video').style.opacity = "1";
   }
@@ -68,7 +119,7 @@ My research interests lie at the intersection of control, machine learning, opti
   }
   research1_stop();
 </script>
-<!-- -------------------------------- SPARK -------------------------------- -->
+<!-- -------------------------------- Graduation Proj -------------------------------- -->
 
 
 ## Projects

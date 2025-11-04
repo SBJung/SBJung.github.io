@@ -21,7 +21,7 @@ My research interests lie at the intersection of control, machine learning, opti
   <tr onmouseout="research2_stop()" onmouseover="research2_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
-        <div class="thumb-hover" id='research2_video'>
+        <div class="thumb-hover" id='research3_video'>
           <video width="100%" muted autoplay loop>
             <source src="assets/research/safe_koopman.mp4" type="video/mp4">
           </video>
@@ -62,10 +62,10 @@ My research interests lie at the intersection of control, machine learning, opti
 
 <script type="text/javascript">
   function research2_start() {
-    document.getElementById('research2_video').style.opacity = "1";
+    document.getElementById('research3_video').style.opacity = "1";
   }
   function research2_stop() {
-    document.getElementById('research2_video').style.opacity = "0";
+    document.getElementById('research3_video').style.opacity = "0";
   }
   research2_stop();
 </script>

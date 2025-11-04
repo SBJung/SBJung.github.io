@@ -46,8 +46,8 @@ My research interests lie at the intersection of control, machine learning, opti
             <div>
               <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
               <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>
-            </div>
-            <div>
+            <!-- </div>
+            <div> -->
               <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
               <a href="https://intelligent-control-lab.github.io/spark/" class="btn btn-info"><strong>Project Page</strong></a>
             </div>

@@ -18,7 +18,7 @@ My research interests lie at the intersection of control, machine learning, opti
 ## Research
 <!-- ---------------------------- Safe Koopman ----------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
-  <tr onmouseout="research2_stop()" onmouseover="research2_start()" style="border: none;">
+  <tr onmouseout="research3_stop()" onmouseover="research3_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research3_video'>
@@ -52,7 +52,7 @@ My research interests lie at the intersection of control, machine learning, opti
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            We developed a unified data-driven safe-control framework that learns a Koopman embedding and linear dynamics from data, enabling model-predictive control to optimize tracking and safety within a single QP. To ensure feasibility near the safety boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance while reducing conservatism. The approach explicitly reasons about link-level geometry and integrates seamlessly with a velocity-level controller. We validated the method on a Kinova Gen3 manipulator, demonstrating reliable obstacle avoidance and sim-to-real transfer with minimal retraining.
+            We present a unified whole-body safe-control framework for robotic manipulators that replaces nominal-plus-filter pipelines with a single quadratic program powered by Koopman neural dynamics. The method learns a Koopman embedding and globally linear dynamics from data, enabling linear optimal control and hard safety enforcement for high-dimensional, nonlinear systems within one QP. To maintain feasibility near the safe-set boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance without degrading performance. The approach reasons over link-level, distributed safety indices and integrates cleanly with a velocity-level controller.
           </p>
         </div>
       </div>
@@ -61,13 +61,13 @@ My research interests lie at the intersection of control, machine learning, opti
 </table>
 
 <script type="text/javascript">
-  function research2_start() {
+  function research3_start() {
     document.getElementById('research3_video').style.opacity = "1";
   }
-  function research2_stop() {
+  function research3_stop() {
     document.getElementById('research3_video').style.opacity = "0";
   }
-  research2_stop();
+  research3_stop();
 </script>
 <!-- ---------------------------- Safe Koopman ----------------------------- -->
 <!-- -------------------------------- SPARK -------------------------------- -->

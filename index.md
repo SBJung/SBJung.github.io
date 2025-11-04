@@ -23,10 +23,10 @@ My research interests lie at the intersection of control, machine learning, opti
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research2_video'>
           <video width="100%" muted autoplay loop>
-            <source src="assets/research/spark_thumbnail.mp4" type="video/mp4">
+            <source src="assets/research/safe_koopman.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/research/spark_image.png' width="100%">
+        <img src='assets/research/safe_koopman.png' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
@@ -52,7 +52,7 @@ My research interests lie at the intersection of control, machine learning, opti
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            We developed a unified safe-control framework that learns a Koopman embedding and linear dynamics from data, enabling model-predictive control to optimize tracking and safety within a single QP. To ensure feasibility near the safety boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance while reducing conservatism. The approach explicitly reasons about link-level geometry and integrates seamlessly with a velocity-level controller. We validated the method on a Kinova Gen3 manipulator, demonstrating reliable obstacle avoidance and sim-to-real transfer with minimal retraining.
+            We developed a unified data-driven safe-control framework that learns a Koopman embedding and linear dynamics from data, enabling model-predictive control to optimize tracking and safety within a single QP. To ensure feasibility near the safety boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance while reducing conservatism. The approach explicitly reasons about link-level geometry and integrates seamlessly with a velocity-level controller. We validated the method on a Kinova Gen3 manipulator, demonstrating reliable obstacle avoidance and sim-to-real transfer with minimal retraining.
           </p>
         </div>
       </div>

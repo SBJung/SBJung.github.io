@@ -16,6 +16,60 @@ My research interests lie at the intersection of control, machine learning, opti
 
 
 ## Research
+<!-- ---------------------------- Safe Koopman ----------------------------- -->
+<table class="project-table" style="width: 100%; height: 180px;">
+  <tr onmouseout="research2_stop()" onmouseover="research2_start()" style="border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+      <div class="thumb-wrapper">
+        <div class="thumb-hover" id='research2_video'>
+          <video width="100%" muted autoplay loop>
+            <source src="assets/research/spark_thumbnail.mp4" type="video/mp4">
+          </video>
+        </div>
+        <img src='assets/research/spark_image.png' width="100%">
+      </div>
+    </td>
+    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+      <div class="project-content-wrapper">
+        <div class="project-text-top">
+          <a>
+            <span class="papertitle">Whole-Body Safe Control of Robotic Manipulators with Koopman Neural Dynamics</span>
+          </a>
+          <br>
+          <div class="project-meta">
+            <span class="authors">
+              <strong>Sebin Jung</strong>, Abulikemu Abuduweili, Jiaxing Li and Changliu Liu
+            </span>
+            <br>
+            <em>Submitted to International Conference on Robotics and Automation(ICRA), 2026.</em>
+            <br>
+            <div>
+              <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->
+              <a href="https://intelligent-control-lab.github.io/spark/" class="btn btn-info"><strong>Project Page</strong></a>
+              <!-- <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a> -->
+            </div>
+          </div>
+        </div>
+        <div class="project-desc-center">
+          <p class="project-summary">
+            We developed a unified safe-control framework that learns a Koopman embedding and linear dynamics from data, enabling model-predictive control to optimize tracking and safety within a single QP. To ensure feasibility near the safety boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance while reducing conservatism. The approach explicitly reasons about link-level geometry and integrates seamlessly with a velocity-level controller. We validated the method on a Kinova Gen3 manipulator, demonstrating reliable obstacle avoidance and sim-to-real transfer with minimal retraining.
+          </p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  function research2_start() {
+    document.getElementById('research2_video').style.opacity = "1";
+  }
+  function research2_stop() {
+    document.getElementById('research2_video').style.opacity = "0";
+  }
+  research2_stop();
+</script>
+<!-- ---------------------------- Safe Koopman ----------------------------- -->
 <!-- -------------------------------- SPARK -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="research2_stop()" onmouseover="research2_start()" style="border: none;">

@@ -32,7 +32,7 @@ My research interests lie at the intersection of control, machine learning, opti
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
-          <a href="https://intelligent-control-lab.github.io/spark/">
+          <!-- <a href="https://intelligent-control-lab.github.io/spark/"> -->
             <span class="papertitle">SPARK: A Toolbox for Safe Humanoid Autonomy and Teleoperation</span>
           </a>
           <br>
@@ -44,12 +44,9 @@ My research interests lie at the intersection of control, machine learning, opti
             <em>arXiv</em>, 2025
             <br>
             <div>
-              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
               <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>
-            <!-- </div>
-            <div> -->
-              <!-- <a href="#" class="btn btn-primary"><strong>Project Page</strong></a> -->
               <a href="https://intelligent-control-lab.github.io/spark/" class="btn btn-info"><strong>Project Page</strong></a>
+              <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a>
             </div>
           </div>
         </div>

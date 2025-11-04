@@ -32,7 +32,7 @@ My research interests lie at the intersection of control, machine learning, opti
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
-          <!-- <a href="https://intelligent-control-lab.github.io/spark/"> -->
+          <a>
             <span class="papertitle">SPARK: A Toolbox for Safe Humanoid Autonomy and Teleoperation</span>
           </a>
           <br>
@@ -41,7 +41,7 @@ My research interests lie at the intersection of control, machine learning, opti
               Yifan Sun, Rui Chen, Kai S. Yun, Yikuan Fang, <strong>Sebin Jung</strong>, Weiye Zhao and Changliu Liu
             </span>
             <br>
-            <em>arXiv</em>, 2025
+            <em>Submitted to Robotics: Science and Systems (RSS), 2025.</em>
             <br>
             <div>
               <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>

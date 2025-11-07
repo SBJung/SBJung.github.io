@@ -3,18 +3,18 @@ layout: default
 title: Sebin Jung
 ---
 
-## Hi there
+# Hi there
 
 <img class="profile-picture" src="assets/seattle.jpeg">
 
 I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) at the Robotics Institute, where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en). Before coming to CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
 
 
-## Interests
+# Interests
 
 My work lies at the intersection of robot safety, machine learning, and optimal control, spanning theory to practical deployment. My long-term goal is to have robots embedded with an intrinsic understanding of safety that not only avoid hazards but also proactively execute intelligent, goal-directed maneuvers to maintain performance under uncertainty. Recently, my work has focused on combining safe-control techniques with learning-based approaches, as well as leveraging generative models, to build trustworthy, high-performance robotic systems.
 
-## Research
+# Research
 <!-- ---------------------------- LLA-MPPI ----------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="research4_stop()" onmouseover="research4_start()" style="border: none;">
@@ -61,10 +61,10 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
 
 <script type="text/javascript">
   function research4_start() {
-    document.getElementById('research3_video').style.opacity = "1";
+    document.getElementById('research4_video').style.opacity = "1";
   }
   function research4_stop() {
-    document.getElementById('research3_video').style.opacity = "0";
+    document.getElementById('research4_video').style.opacity = "0";
   }
   research3_stop();
 </script>
@@ -98,7 +98,7 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
             <br>
             <div>
               <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->
-              <a href="https://intelligent-control-lab.github.io/spark/" class="btn btn-info"><strong>Project Page</strong></a>
+              <a class="btn btn-info"><strong>Project Page Coming Soon</strong></a>
               <!-- <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a> -->
             </div>
           </div>
@@ -159,7 +159,7 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            SPARK is a modular toolbox designed to ensure safety in humanoid robot autonomy and teleoperation. It integrates state-of-the-art safe control methods into a flexible framework that supports safety customization across tasks and environments.
+            SPARK (Safe Protective and Assistive Robot Kit) is a modular toolbox and benchmark for humanoid autonomy and teleoperation. It integrates state-of-the-art safe control in a composable framework, making it easy to tailor protective behaviors to varied tasks, environments, and robot models. Users can set safety criteria, tune sensitivity, and compose safeguards. SPARK provides simulation benchmarks to compare methods and supports rapid deployment of synthesized controllers on real robots. It interfaces with Apple Vision Pro or Motion Capture (and other setups) and is demonstrated in simulation and on a Unitree G1 to streamline humanoid safety research.
           </p>
         </div>
       </div>
@@ -232,7 +232,7 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
 <!-- -------------------------------- Graduation Proj -------------------------------- -->
 
 
-## Projects
+# Projects
 <!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
@@ -478,7 +478,7 @@ Here is a blockquote
 * John Doe: Associate Professor, Department of Computer Science, Ipsum -->
 
 
-## Recent Activities
+# Recent Activities
 
 <div class="glider-contain" style="width: 600px; margin: 0 auto;">
   <button class="glider-prev">«</button>

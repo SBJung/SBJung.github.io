@@ -3,7 +3,7 @@ layout: default
 title: Sebin Jung
 ---
 
-## Hi there 👋
+## Hi there
 
 <img class="profile-picture" src="assets/seattle.jpeg">
 
@@ -13,6 +13,8 @@ I’m a Master’s student in Mechanical Engineering at Carnegie Mellon Universi
 ## Interests
 
 My research interests lie at the intersection of control, machine learning, optimization, and robotics. I'm particularly interested in developing methods that enable robots to act both safely and intelligently in complex environments. Recently, my work has focused on combining safe control techniques with learning-based approaches to improve the performance and reliability of autonomous systems.
+
+My research interests lie at the intersection of robot safety, optimal control, and machine learning. By leveraging these fields, I aim to develop autonomous systems embedded with an intrinsic understanding of safety while preserving high performance. I envision robots that not only avoid hazards but proactively execute intelligent, goal-directed maneuvers to maintain performance under uncertainty.
 
 
 ## Research

@@ -17,15 +17,15 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
 ## Research
 <!-- ---------------------------- LLA-MPPI ----------------------------- -->
 <table class="project-table" style="width: 100%; height: 180px;">
-  <tr onmouseout="research3_stop()" onmouseover="research3_start()" style="border: none;">
+  <tr onmouseout="research4_stop()" onmouseover="research4_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
-        <div class="thumb-hover" id='research3_video'>
+        <div class="thumb-hover" id='research4_video'>
           <video width="100%" muted autoplay loop>
-            <source src="assets/research/safe_koopman.mp4" type="video/mp4">
+            <source src="assets/research/go2_big_box_old.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/research/safe_koopman.png' width="100%">
+        <img src='assets/research/go2_big_box_old.png' width="100%">
       </div>
     </td>
     <td style="padding:8px;width:75%;vertical-align:top; border: none;">
@@ -51,7 +51,7 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            We present a unified whole-body safe-control framework for robotic manipulators that replaces nominal-plus-filter pipelines with a single quadratic program powered by Koopman neural dynamics. The method learns a Koopman embedding and globally linear dynamics from data, enabling linear optimal control and hard safety enforcement for high-dimensional, nonlinear systems within one QP. To maintain feasibility near the safe-set boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance without degrading performance. The approach reasons over link-level, distributed safety indices and integrates cleanly with a velocity-level controller.
+            Coming Soon.
           </p>
         </div>
       </div>
@@ -60,10 +60,10 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
 </table>
 
 <script type="text/javascript">
-  function research3_start() {
+  function research4_start() {
     document.getElementById('research3_video').style.opacity = "1";
   }
-  function research3_stop() {
+  function research4_stop() {
     document.getElementById('research3_video').style.opacity = "0";
   }
   research3_stop();

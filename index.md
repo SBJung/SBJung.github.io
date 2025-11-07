@@ -7,12 +7,16 @@ title: Sebin Jung
 
 <img class="profile-picture" src="assets/seattle.jpeg">
 
-I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) and the [Driverless Intelligent Vehicle Lab](https://drive-lab-cmu.github.io/) at the Robotics Institute, where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en) and Prof. [John M. Dolan](https://scholar.google.com/citations?user=xLk_w7kAAAAJ&hl=en&oi=ao). Before coming to CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on robot learning for autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
+I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) and the [Driverless Intelligent Vehicle Lab](https://drive-lab-cmu.github.io/) at the [Robotics Institute](https://www.ri.cmu.edu/), where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en) and Prof. [John M. Dolan](https://scholar.google.com/citations?user=xLk_w7kAAAAJ&hl=en&oi=ao). 
+
+Before CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on robot learning for autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
+
+Besides work, I love to surf, snowboard, and travel.
 
 
 # Interests
 
-My work lies at the intersection of robot safety, machine learning, and optimal control, spanning theory to practical deployment. My long-term goal is to have robots embedded with an intrinsic understanding of safety that not only avoid hazards but also proactively execute intelligent, goal-directed maneuvers to maintain performance under uncertainty. Recently, my work has focused on combining safe-control techniques with learning-based approaches, as well as leveraging generative models, to build trustworthy, high-performance robotic systems.
+My work lies at the intersection of <strong>robot safety, machine learning, and optimal control</strong>, spanning theory to practical deployment. My long-term goal is to have robots embedded with an intrinsic understanding of safety that not only avoid hazards but also proactively execute intelligent, goal-directed maneuvers to maintain performance under uncertainty. Recently, my work has focused on combining safe-control techniques with learning-based approaches, as well as leveraging generative models, to build <strong>trustworthy, high-performance robotic systems</strong>.
 
 # Research
 <!-- ---------------------------- LLA-MPPI ----------------------------- -->

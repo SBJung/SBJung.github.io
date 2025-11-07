@@ -3,11 +3,11 @@ layout: default
 title: Sebin Jung
 ---
 
-# Hi there
+# Hi there,
 
 <img class="profile-picture" src="assets/seattle.jpeg">
 
-I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) at the Robotics Institute, where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en). Before coming to CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
+I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) and the [Driverless Intelligent Vehicle Lab](https://drive-lab-cmu.github.io/) at the Robotics Institute, where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en) and Prof. [John M. Dolan](https://scholar.google.com/citations?user=xLk_w7kAAAAJ&hl=en&oi=ao). Before coming to CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on robot learning for autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
 
 
 # Interests
@@ -40,7 +40,7 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
               Maitham F. AL-Sunni*, <strong>Sebin Jung*</strong>, Juan Alvarez-Padilla, Changliu Liu, John M. Dolan
             </span>
             <br>
-            <em>Scheduled submission for IEEE Robotics and Automation Letters (RA-L), 2025.</em>
+            <em>(* indicates equal contribution)<br>Submission scheduled for IEEE Robotics and Automation Letters (RA-L), 2025.</em>
             <br>
             <div>
               <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->
@@ -51,7 +51,7 @@ My work lies at the intersection of robot safety, machine learning, and optimal 
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            Coming Soon.
+            Project description to be revealed soon.
           </p>
         </div>
       </div>

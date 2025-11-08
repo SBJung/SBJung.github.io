@@ -11,12 +11,12 @@ I’m a Master’s student in Mechanical Engineering at Carnegie Mellon Universi
 
 Before CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on robot learning for autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
 
-Besides work, I love to surf, snowboard, and travel.
-
 
 # Interests
 
 My work lies at the intersection of <strong>robot safety, machine learning, and optimal control</strong>, spanning theory to practical deployment. My long-term goal is to have robots embedded with an intrinsic understanding of safety that not only avoid hazards but also proactively execute intelligent, goal-directed maneuvers to maintain performance under uncertainty. Recently, my work has focused on combining safe-control techniques with learning-based approaches, as well as leveraging generative models, to build <strong>trustworthy, high-performance robotic systems</strong>.
+
+Besides work, I love to surf, snowboard, and travel!
 
 # Research
 <!-- ---------------------------- LLA-MPPI ----------------------------- -->

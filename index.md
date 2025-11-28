@@ -102,7 +102,7 @@ Besides work, I love to surf, snowboard, and travel!
             <br>
             <div>
               <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->
-              <a class="btn btn-info"><strong>Project Page Coming Soon</strong></a>
+              <a href="https://sbjung.github.io/website_safe_koopman/" class="btn btn-info"><strong>Project Page</strong></a>
               <!-- <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a> -->
             </div>
           </div>

@@ -98,7 +98,7 @@ Besides work, I love to surf, snowboard, and travel!
               <strong>Sebin Jung</strong>, Abulikemu Abuduweili, Jiaxing Li and Changliu Liu
             </span>
             <br>
-            <em>Submitted to International Conference on Robotics and Automation(ICRA), 2026.</em>
+            <em>Accepted to International Conference on Robotics and Automation(ICRA), 2026.</em>
             <br>
             <div>
               <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->

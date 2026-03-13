@@ -101,7 +101,7 @@ Besides work, I love to surf, snowboard, and travel!
             <em>Accepted to International Conference on Robotics and Automation(ICRA), 2026.</em>
             <br>
             <div>
-              <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->
+              <a href="https://arxiv.org/abs/2603.03740" class="btn btn-info"><strong>Paper</strong></a>
               <a href="https://sbjung.github.io/website_safe_koopman/" class="btn btn-info"><strong>Project Page</strong></a>
               <!-- <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a> -->
             </div>
@@ -155,7 +155,7 @@ Besides work, I love to surf, snowboard, and travel!
             <em>Submitted to Robotics: Science and Systems (RSS), 2025.</em>
             <br>
             <div>
-              <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a>
+              <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>Paper</strong></a>
               <a href="https://intelligent-control-lab.github.io/spark/" class="btn btn-info"><strong>Project Page</strong></a>
               <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a>
             </div>

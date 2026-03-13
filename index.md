@@ -109,7 +109,7 @@ Besides work, I love to surf, snowboard, and travel!
         </div>
         <div class="project-desc-center">
           <p class="project-summary">
-            We present a unified whole-body safe-control framework for robotic manipulators that replaces nominal-plus-filter pipelines with a single quadratic program powered by Koopman neural dynamics. The method learns a Koopman embedding and globally linear dynamics from data, enabling linear optimal control and hard safety enforcement for high-dimensional, nonlinear systems within one QP. To maintain feasibility near the safe-set boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance without degrading performance. The approach reasons over link-level, distributed safety indices and integrates cleanly with a velocity-level controller.
+            We present a unified whole-body safe-control framework for robotic systems that replaces nominal-plus-filter pipelines with a single quadratic program powered by Koopman neural dynamics. The method learns a Koopman embedding and globally linear dynamics from data, enabling linear optimal control and hard safety enforcement for high-dimensional, nonlinear systems within one QP. To maintain feasibility near the safe-set boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance without degrading performance. The approach reasons over link-level, distributed safety indices and integrates cleanly with a velocity-level controller.
           </p>
         </div>
       </div>

@@ -3,26 +3,31 @@ layout: default
 title: Sebin Jung
 ---
 
-# Hi there,
+# Sebin Jung
 
-<img class="profile-picture" src="assets/seattle.jpeg">
+<p class="role"><a href="https://www.ri.cmu.edu/ri-people/sebin-jung/">Research Assistant</a> @ CMU Robotics Institute</p>
+
+<img class="profile-picture" src="assets/IMG_6153.jpg">
 
 I’m a Master’s student in Mechanical Engineering at Carnegie Mellon University. I’m currently part of the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) and the [Driverless Intelligent Vehicle Lab](https://drive-lab-cmu.github.io/) at the [Robotics Institute](https://www.ri.cmu.edu/), where I’m fortunate to be advised by Prof. [Changliu Liu](https://scholar.google.com/citations?user=vvzAfOwAAAAJ&hl=en) and Prof. [John M. Dolan](https://scholar.google.com/citations?user=xLk_w7kAAAAJ&hl=en&oi=ao). 
 
 Before CMU, I earned my B.S. in Mechanical Engineering from Kyungpook National University in South Korea. During my undergraduate years, I worked on robot learning for autonomous driving research in the [VOICE Lab](https://sites.google.com/view/voice-lab), advised by Prof. [Kyoungseok Han](https://scholar.google.com/citations?user=CEEipNoAAAAJ&hl=en&oi=ao).
 
 
-# Interests
+## Interests
 
 My work lies at the intersection of <strong>robot safety, machine learning, and optimal control</strong>, spanning theory to practical deployment. My long-term goal is to have robots embedded with an intrinsic understanding of safety that not only avoid hazards but also proactively execute intelligent, goal-directed maneuvers to maintain performance under uncertainty. Recently, my work has focused on combining safe-control techniques with learning-based approaches, as well as leveraging generative models, to build <strong>trustworthy, high-performance robotic systems</strong>.
 
 Besides work, I love to surf, snowboard, and travel!
 
-# Research
+## Research
+
+<p class="equal-contribution">(* indicates equal contribution)</p>
+
 <!-- ---------------------------- LLA-MPPI ----------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table research-table" style="width: 100%;">
   <tr onmouseout="research4_stop()" onmouseover="research4_start()" style="border: none;">
-    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:top; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research4_video'>
           <video width="100%" muted autoplay loop>
@@ -32,19 +37,19 @@ Besides work, I love to surf, snowboard, and travel!
         <img src='assets/research/go2_big_box_old.png' width="100%">
       </div>
     </td>
-    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+    <td style="padding:28px 8px 8px 8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
           <a>
-            <span class="papertitle">LLA-MPPI: Rapidly Adaptive Whole-Body Control for Legged Robots</span>
+            <span class="papertitle">LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations</span>
           </a>
           <br>
           <div class="project-meta">
             <span class="authors">
-              Maitham F. AL-Sunni*, <strong>Sebin Jung*</strong>, Juan Alvarez-Padilla, Changliu Liu, John M. Dolan
+              <strong>Sebin Jung</strong>*, Maitham F. AL-Sunni*, Juan Alvarez-Padilla, Zachary Manchester, Changliu Liu, John M. Dolan
             </span>
             <br>
-            <em>(* indicates equal contribution)<br>Submission scheduled for IEEE Robotics and Automation Letters (RA-L), 2025.</em>
+            <em>International Conference on Robotics and Automation(ICRA), 2027, Under Review</em>
             <br>
             <div>
               <!-- <a href="https://arxiv.org/pdf/2502.03132" class="btn btn-info"><strong>arXiv</strong></a> -->
@@ -52,11 +57,6 @@ Besides work, I love to surf, snowboard, and travel!
               <!-- <a href="https://www.youtube.com/watch?v=vIzeQ31YbCM" class="btn btn-info"><strong>Video</strong></a> -->
             </div>
           </div>
-        </div>
-        <div class="project-desc-center">
-          <p class="project-summary">
-            Project description to be revealed soon.
-          </p>
         </div>
       </div>
     </td>
@@ -74,9 +74,9 @@ Besides work, I love to surf, snowboard, and travel!
 </script>
 <!-- ---------------------------- LLA-MPPI ----------------------------- -->
 <!-- ---------------------------- Safe Koopman ----------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table research-table" style="width: 100%;">
   <tr onmouseout="research3_stop()" onmouseover="research3_start()" style="border: none;">
-    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:top; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research3_video'>
           <video width="100%" muted autoplay loop>
@@ -86,7 +86,7 @@ Besides work, I love to surf, snowboard, and travel!
         <img src='assets/research/safe_koopman.png' width="100%">
       </div>
     </td>
-    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+    <td style="padding:28px 8px 8px 8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
           <a>
@@ -107,11 +107,6 @@ Besides work, I love to surf, snowboard, and travel!
             </div>
           </div>
         </div>
-        <div class="project-desc-center">
-          <p class="project-summary">
-            We present a unified whole-body safe-control framework for robotic systems that replaces nominal-plus-filter pipelines with a single quadratic program powered by Koopman neural dynamics. The method learns a Koopman embedding and globally linear dynamics from data, enabling linear optimal control and hard safety enforcement for high-dimensional, nonlinear systems within one QP. To maintain feasibility near the safe-set boundary, we introduce an adversarial fine-tuning procedure for the safety index that preserves forward invariance without degrading performance. The approach reasons over link-level, distributed safety indices and integrates cleanly with a velocity-level controller.
-          </p>
-        </div>
       </div>
     </td>
   </tr>
@@ -128,9 +123,9 @@ Besides work, I love to surf, snowboard, and travel!
 </script>
 <!-- ---------------------------- Safe Koopman ----------------------------- -->
 <!-- -------------------------------- SPARK -------------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table research-table" style="width: 100%;">
   <tr onmouseout="research2_stop()" onmouseover="research2_start()" style="border: none;">
-    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:top; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research2_video'>
           <video width="100%" muted autoplay loop>
@@ -140,7 +135,7 @@ Besides work, I love to surf, snowboard, and travel!
         <img src='assets/research/spark_image.png' width="100%">
       </div>
     </td>
-    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+    <td style="padding:28px 8px 8px 8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
           <a>
@@ -161,11 +156,6 @@ Besides work, I love to surf, snowboard, and travel!
             </div>
           </div>
         </div>
-        <div class="project-desc-center">
-          <p class="project-summary">
-            SPARK (Safe Protective and Assistive Robot Kit) is a modular toolbox and benchmark for humanoid autonomy and teleoperation. It integrates state-of-the-art safe control in a composable framework, making it easy to tailor protective behaviors to varied tasks, environments, and robot models. Users can set safety criteria, tune sensitivity, and compose safeguards. SPARK provides simulation benchmarks to compare methods and supports rapid deployment of synthesized controllers on real robots. It interfaces with Apple Vision Pro or Motion Capture (and other setups) and is demonstrated in simulation and on a Unitree G1 to streamline humanoid safety research.
-          </p>
-        </div>
       </div>
     </td>
   </tr>
@@ -182,9 +172,9 @@ Besides work, I love to surf, snowboard, and travel!
 </script>
 <!-- -------------------------------- SPARK -------------------------------- -->
 <!-- -------------------------------- Graduation Proj -------------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table research-table" style="width: 100%;">
   <tr onmouseout="research1_stop()" onmouseover="research1_start()" style="border: none;">
-    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
+    <td style="padding:16px 16px 16px 0; width:25%; vertical-align:top; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research1_video'>
           <video width="100%" muted autoplay loop>
@@ -194,7 +184,7 @@ Besides work, I love to surf, snowboard, and travel!
         <img src='assets/research/GradProj.png' width="100%">
       </div>
     </td>
-    <td style="padding:8px;width:75%;vertical-align:top; border: none;">
+    <td style="padding:28px 8px 8px 8px;width:75%;vertical-align:top; border: none;">
       <div class="project-content-wrapper">
         <div class="project-text-top">
           <a>
@@ -214,11 +204,6 @@ Besides work, I love to surf, snowboard, and travel!
             </div>
           </div>
         </div>
-        <div class="project-desc-center">
-          <p class="project-summary">
-            We developed a RL environment for autonomous driving using the commercial simulator IPG CarMaker, incorporating realistic vehicle dynamics. A TD3-based control policy was trained to handle continuous steering and throttle inputs. This work demonstrates the potential of learning-based driving in high-fidelity simulation and lays the foundation for future multi-agent and complex scenario extensions.
-          </p>
-        </div>
       </div>
     </td>
   </tr>
@@ -236,9 +221,9 @@ Besides work, I love to surf, snowboard, and travel!
 <!-- -------------------------------- Graduation Proj -------------------------------- -->
 
 
-# Projects
+## Projects
 <!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table" style="width: 100%;">
   <tr onmouseout="project1_stop()" onmouseover="project1_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
@@ -291,7 +276,7 @@ Besides work, I love to surf, snowboard, and travel!
 </script>
 <!-- -------------------------------- F1Tenth Safety 21 -------------------------------- -->
 <!-- ------------------------------- CARLA ------------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table" style="width: 100%;">
   <tr onmouseout="project2_stop()" onmouseover="project2_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
@@ -344,7 +329,7 @@ Besides work, I love to surf, snowboard, and travel!
 </script>
 <!-- -------------------------------- CARLA -------------------------------- -->
 <!-- ------------------------------- Quanser ------------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table" style="width: 100%;">
   <tr onmouseout="project3_stop()" onmouseover="project3_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
@@ -397,7 +382,7 @@ Besides work, I love to surf, snowboard, and travel!
 </script>
 <!-- -------------------------------- Quanser -------------------------------- -->
 <!-- ------------------------------- f1tenth korea ------------------------------- -->
-<table class="project-table" style="width: 100%; height: 180px;">
+<table class="project-table" style="width: 100%;">
   <tr onmouseout="project4_stop()" onmouseover="project4_start()" style="border: none;">
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:middle; border: none;">
       <div class="thumb-wrapper">
@@ -482,7 +467,7 @@ Here is a blockquote
 * John Doe: Associate Professor, Department of Computer Science, Ipsum -->
 
 
-# Recent Activities
+## Recent Activities
 
 <div class="glider-contain" style="width: 600px; margin: 0 auto;">
   <button class="glider-prev">«</button>

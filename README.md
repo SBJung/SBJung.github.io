@@ -1,60 +1,76 @@
-# Researcher
+# sbjung.github.io
 
-### [Demo Website](http://ankitsultana.com/researcher)
+Source for my personal site, live at **[sbjung.github.io](https://sbjung.github.io/)**.
 
-A clean, single column, monospace resume template built for jekyll
+Built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages. The layout
+started from the [researcher](https://github.com/ankitsultana/researcher) template;
+all of its files (`_layouts/`, `_sass/`, `css/`) now live in this repo, so there is
+no `remote_theme` and no theme gem to install.
 
-### Installation
+## Previewing changes locally
 
-Simply fork the repository and edit away.
+Always preview before pushing — see the deploy note below for why.
 
-#### Installation via remote themes
-
-* Just setting `remote_theme: ankitsultana/researcher@gem` in `_config.yml` should work. Although in that case, I am not sure how
-you would build your site locally for testing. If you know how, open up an issue and let me know.
-* For more info, [refer this](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
-
-### Customization
-
-* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
-
-* You can of course remove `contact.md` if you don't want it
-
-* To set the heading, edit the `title` variable in `_config.yml`
-
-* To edit the `links` mentioned on the navigation bar, you can edit `_config.yml`. For example:
-
-```
-nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+```bash
+bundle exec jekyll serve
 ```
 
-* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+Then open **http://localhost:4000**. The site rebuilds automatically when you save a
+file; reload the browser to see it. Generated output goes to `_site/` (git-ignored).
 
-* You can setup google analytics, by setting `tracking_id` in `_config.yml`
+Add `--livereload` to have the browser refresh itself, or `--drafts` to include drafts.
 
-* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
+## One-time environment setup
 
-```html
-<img class="profile-picture" src="sherlock.jpg">
+The site needs Ruby 3.x and Bundler. On this machine that is already installed via
+`chruby` (Ruby 3.3.6), so only the last step is needed after a fresh clone:
+
+```bash
+bundle install
 ```
 
-* You can remove/customize the footer as you like by setting the
-appropriate variables in `_config.yml`
+For a new machine:
 
-* (New in v1.2.0) You can add institute logo at the top, by setting `ins_logo` in `_config.yml`. If you want
-to adjust the logo's size, try setting `max-height` in `#ins-logo` in file `./_sass/_style.scss` to the desired
-value
+1. Install a Ruby version manager and a stable Ruby — `chruby` + `ruby-install` on
+   macOS, or your distro's equivalent on Linux:
+   ```bash
+   ruby-install ruby 3.3.6
+   ```
+2. Point your shell at it (`chruby ruby-3.3.6`) and confirm with `ruby -v`.
+3. Install Bundler and the site's gems:
+   ```bash
+   gem install bundler && bundle install
+   ```
 
-![Institute Logo Image Sample](https://github.com/ankitsultana/assets/raw/master/ins-logo-sample.png)
+## Deploying
 
-**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+This repo is served by GitHub Pages from the **`gh-pages`** branch, which is also the
+default branch. There is no separate build or review step:
 
-### License
+```bash
+git add -A && git commit -m "your message" && git push
+```
 
-[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+**Pushing publishes immediately** — the live site updates about a minute later. That is
+why the local preview above matters: there is no staging environment to catch a broken
+layout or a bad asset path.
+
+## Editing the content
+
+| What | Where |
+| --- | --- |
+| Homepage (bio, interests, research, projects) | `index.md` |
+| Contact page | `contact.md` |
+| Site title, URL, nav links, footer | `_config.yml` |
+| Page shell — `<head>`, navbar, footer markup | `_layouts/default.html` |
+| Styling | `_sass/_style.scss`, plus `vars.scss` (colors), `typography.scss`, `tables.scss` |
+| Images, videos, CV | `assets/`, `CV_renewed.pdf` |
+
+Nav links are defined as a `nav:` list in `_config.yml`. Accent color (hyperlinks) is
+the `accent` variable in `_sass/vars.scss`.
+
+Any new `foo.md` in the repo root becomes a page at `/foo`.
+
+## License
+
+[GNU GPL v3](LICENSE), inherited from the researcher template.

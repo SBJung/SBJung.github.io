@@ -11,12 +11,38 @@ html {
 }
 body {
     margin: 0;
-    font-family: "Saira"; /* Inconsolata */
+    font-family: "PT Serif Caption"; /* Charis SIL */ /* PT Serif Caption */
     height: 100%;
-    font-size: 14px;
+    font-size: 16px;
+    background-color: #f5ebe0
+}
+h1 {
+  font-family: "Charis SIL";
+  font-size: 57px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+h2 {
+  font-family: "Charis SIL";
+  font-size: 30px;
+  font-weight: 500;
+}
+.equal-contribution {
+  margin-top: -4px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-style: italic;
+  color: #505050;
+}
+h3 {
+  font-family: "Charis SIL";
+  font-size: 22px;
+  font-weight: 500;
 }
 a {
     text-decoration: none;
+    font-weight: 900;
     color: $accent;
 }
 a:hover {
@@ -27,6 +53,11 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.role {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 24px;
 }
 
 /*
@@ -39,7 +70,7 @@ hr {
     display: inline-block;
 }
 .navbar {
-    padding: 40px 0 0px 0;
+    padding: 0px 0 0px 0;
 }
 .navbar-ul {
     display: inline-block;
@@ -49,7 +80,7 @@ hr {
 }
 .nav-list {
     list-style-type: none;
-    margin: 30px 0px 0 5px;
+    margin: 15px 0px 0 5px;
 }
 .alignable {
     display: inline-block;
@@ -137,9 +168,9 @@ hr {
 }
 
 .project-title {
-  font-size: 17px !important;
+  font-size: 18px !important;
   // font-size: 6.0em;
-  font-weight: bold;
+  font-weight: 600;
   color: $accent;
   margin-bottom: 5px;
   text-align: left;
@@ -150,10 +181,17 @@ hr {
   // font-size: 2.0em;
   color: #141414;
   line-height: 1.3;
-  margin-top: 4px;
+  margin-top: 14px;
+}
+
+.project-meta .authors {
+  display: inline-block;
+  margin-bottom: 8px;
 }
   
 .project-meta em {
+  display: inline-block;
+  margin-top: 8px;
   font-style: italic;
   color: #505050;
 }
@@ -188,6 +226,17 @@ hr {
   position: relative;
   width: 100%;
   margin-left: 0;
+  aspect-ratio: 5 / 4;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.thumb-wrapper > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .thumb-hover {
@@ -199,11 +248,13 @@ hr {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .thumb-hover video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-table,

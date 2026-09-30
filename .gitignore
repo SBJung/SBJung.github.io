@@ -4,8 +4,7 @@ _site
 .DS_Store
 .jekyll-cache
 
-# Bundler
-Gemfile.lock
+# Bundler (Gemfile.lock IS committed: CI builds from it)
 .bundle/
 vendor/
 

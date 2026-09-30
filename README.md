@@ -44,16 +44,24 @@ For a new machine:
 
 ## Deploying
 
-This repo is served by GitHub Pages from the **`gh-pages`** branch, which is also the
-default branch. There is no separate build or review step:
+Pushing to **`gh-pages`** (the default branch) triggers the GitHub Actions workflow in
+[`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml), which builds the site
+with this repo's `Gemfile` and deploys it to Pages:
 
 ```bash
 git add -A && git commit -m "your message" && git push
 ```
 
-**Pushing publishes immediately** — the live site updates about a minute later. That is
-why the local preview above matters: there is no staging environment to catch a broken
-layout or a bad asset path.
+**Pushing publishes** — the live site updates once the workflow finishes, usually a
+minute or two. Watch it on the repo's **Actions** tab; a red X there means the site did
+not update. That is why the local preview above matters: there is no staging step.
+
+Because CI builds from `Gemfile.lock`, that file is committed. If you change the
+`Gemfile`, run `bundle install` and commit the updated lockfile with it.
+
+> **Note:** Pages must be set to **Settings → Pages → Source: GitHub Actions** for this
+> workflow to deploy. The older "Deploy from a branch" mode builds with GitHub's own
+> Jekyll 3.10 and fails on this repo's Jekyll 4 `Gemfile`.
 
 ## Editing the content
 

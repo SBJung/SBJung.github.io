@@ -103,11 +103,11 @@ Besides work, I love to surf, snowboard, and travel!
     <td style="padding:16px 16px 16px 0; width:25%; vertical-align:top; border: none;">
       <div class="thumb-wrapper">
         <div class="thumb-hover" id='research5_video'>
-          <video width="100%" muted autoplay loop>
-            <source src="assets/research/go2_big_box_old.mp4" type="video/mp4">
+          <video width="100%" muted autoplay loop playsinline preload="auto">
+            <source src="assets/research/llamppi_web.mp4" type="video/mp4">
           </video>
         </div>
-        <img src='assets/research/go2_big_box_old.png' width="100%">
+        <img src='assets/research/llamppi.png' width="100%">
       </div>
     </td>
     <td style="padding:28px 8px 8px 8px;width:75%;vertical-align:top; border: none;">
@@ -143,10 +143,16 @@ Besides work, I love to surf, snowboard, and travel!
 
 <script type="text/javascript">
   function research5_start() {
-    document.getElementById('research4_video').style.opacity = "1";
+    const hover = document.getElementById('research5_video');
+    hover.style.opacity = "1";
+    const video = hover.querySelector("video");
+    if (video) video.play();
   }
   function research5_stop() {
-    document.getElementById('research4_video').style.opacity = "0";
+    const hover = document.getElementById('research5_video');
+    hover.style.opacity = "0";
+    const video = hover.querySelector("video");
+    if (video) video.pause();
   }
   research3_stop();
 </script>
